@@ -1,6 +1,6 @@
 
 .header{
-    background-color:rgb(200, 105, 53);
+    background-color:rgb(204, 107, 54);
     width: 370px;
     z-index: 2;
     font-family: sans-serif;
@@ -9,6 +9,7 @@
     position: absolute;
     margin-top: 40px;
     margin-left: 80px;
+    font-weight:700;
 }
 .wrapper{
     background-color: rgb(168, 204, 204);
@@ -32,6 +33,8 @@
     width: 275px;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
+    padding-left: 30px;
+    opacity: 0.6;
 }
 .credit-input-label{
     color: rgb(113,134,148);
@@ -43,10 +46,12 @@
     background-color: rgb(178, 209,209);
     border: 0px;
     height: 35px;
-    width: 75px;
+    width: 70px;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
     margin-right: 18px;
+    opacity: 0.6;
+    padding-left: 15px;
 }
 .inline-block{
     display: inline-block;
