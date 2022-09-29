@@ -1,8 +1,8 @@
 
 .header{
     background-color:rgb(200, 105, 53);
-    width: 400px;
-    z-index: 9;
+    width: 370px;
+    z-index: 2;
     font-family: sans-serif;
     color: whitesmoke;
     padding-left: 50px;
@@ -12,11 +12,13 @@
 }
 .wrapper{
     background-color: rgb(168, 204, 204);
-    width: 600px;
+    width: 550px;
     height:380px;
     position: absolute;
     margin-left: 100px;
     border-radius: 15px;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .input-block{
@@ -48,4 +50,18 @@
 }
 .inline-block{
     display: inline-block;
+}
+.pic-wrap{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+.bg-picture{
+    width: 256px;
+    height: 256px;
+    z-index: 3;
+    position: relative;
+    bottom: -54px;
+    right: -75px;
 }
