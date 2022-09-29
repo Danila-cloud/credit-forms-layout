@@ -34,7 +34,8 @@
     border-bottom: 1px solid black;
     margin-bottom: 20px;
     padding-left: 30px;
-    opacity: 0.6;
+    opacity: 0.9;
+    font-size: 14px;
 }
 .credit-input-label{
     color: rgb(113,134,148);
@@ -50,8 +51,9 @@
     border-bottom: 1px solid black;
     margin-bottom: 20px;
     margin-right: 18px;
-    opacity: 0.6;
+    opacity: 0.9;
     padding-left: 15px;
+    font-size: 14px;
 }
 .inline-block{
     display: inline-block;
