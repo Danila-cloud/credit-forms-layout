@@ -7,3 +7,5 @@ Layout forms for credit card
 ■ имени владельца;  
 ■ срока действия;  
 ■ CVV/CVN номера.  
+
+![](screenshots/screenshot.png)
