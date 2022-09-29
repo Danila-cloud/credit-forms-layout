@@ -1,75 +1,74 @@
+.header {
+  background-color: rgb(204, 107, 54);
+  width: 370px;
+  z-index: 2;
+  font-family: sans-serif;
+  color: whitesmoke;
+  padding-left: 50px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 80px;
+  font-weight: 700;
+}
+.wrapper {
+  background-color: rgb(168, 204, 204);
+  width: 550px;
+  height: 400px;
+  position: absolute;
+  margin-left: 100px;
+  border-radius: 15px;
+  z-index: 1;
+  overflow: hidden;
+}
 
-.header{
-    background-color:rgb(204, 107, 54);
-    width: 370px;
-    z-index: 2;
-    font-family: sans-serif;
-    color: whitesmoke;
-    padding-left: 50px;
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 80px;
-    font-weight:700;
+.input-block {
+  margin-top: 110px;
+  padding-left: 35px;
 }
-.wrapper{
-    background-color: rgb(168, 204, 204);
-    width: 550px;
-    height:400px;
-    position: absolute;
-    margin-left: 100px;
-    border-radius: 15px;
-    z-index: 1;
-    overflow: hidden;
+.credit-input {
+  background-color: rgb(178, 209, 209);
+  border: 0px;
+  height: 35px;
+  width: 275px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  opacity: 0.9;
+  font-size: 14px;
+  margin-top: 8px;
 }
-
-.input-block{
-    margin-top: 110px;
-    padding-left: 35px;
+.credit-input-label {
+  color: rgb(113, 134, 148);
+  font-family: sans-serif;
+  font-size: 14px;
 }
-.credit-input{
-    background-color: rgb(178, 209,209);
-    border: 0px;
-    height: 35px;
-    width: 275px;
-    border-bottom: 1px solid black;
-    margin-bottom: 20px;
-    padding-left: 30px;
-    opacity: 0.9;
-    font-size: 14px;
-    margin-top: 8px;
+.credit-input-date {
+  background-color: rgb(178, 209, 209);
+  border: 0px;
+  height: 35px;
+  width: 70px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  margin-right: 18px;
+  opacity: 0.9;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 8px;
 }
-.credit-input-label{
-    color: rgb(113,134,148);
-    font-family: sans-serif;
-    font-size: 14px;
+.inline-block {
+  display: inline-block;
 }
-.credit-input-date{
-    background-color: rgb(178, 209,209);
-    border: 0px;
-    height: 35px;
-    width: 70px;
-    border-bottom: 1px solid black;
-    margin-bottom: 20px;
-    margin-right: 18px;
-    opacity: 0.9;
-    padding-left: 15px;
-    font-size: 14px;
-    margin-top: 8px;
+.pic-wrap {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
 }
-.inline-block{
-    display: inline-block;
-}
-.pic-wrap{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    overflow: hidden;
-}
-.bg-picture{
-    width: 256px;
-    height: 256px;
-    z-index: 3;
-    position: relative;
-    bottom: -54px;
-    right: -75px;
+.bg-picture {
+  width: 256px;
+  height: 256px;
+  z-index: 3;
+  position: relative;
+  bottom: -54px;
+  right: -75px;
 }
